@@ -1,19 +1,8 @@
-/*
- ============================================================================
- Name        : rm3x.cu
- Author      : 1z0d <id@yaht.net>
- Version     :
- Copyright   : Copyleft 1z0d
- Description :
- ============================================================================
- */
-
 #include <time.h>
 
 #include <stdio.h>
 #include <stdlib.h>
 
-// getopt(); sleep();
 #include <unistd.h>
 
 #include <cuda_runtime.h>
@@ -452,8 +441,8 @@ void _m3x_calc_host(float *a, float *b, float *c, int m, int n, int k) {
 	}
 
 }
-// m = rows_a, n = cols_a, k = cols_b
-// our CUDA kernel...
+
+// CUDA kernel...
 __global__ void _m3x_calc_device(float *a, float *b, float *c, int m, int n, int k) {
     int row = threadIdx.y + blockIdx.y * blockDim.y;
     int col = threadIdx.x + blockIdx.x * blockDim.x;
@@ -472,7 +461,7 @@ __global__ void _m3x_calc_device(float *a, float *b, float *c, int m, int n, int
     }
     return;
 }
-// m = rows_a = rows_c, n = cols_a, k = cols_b = cols_c
+
 __global__ void _m3x_calc_device2(float *a, float *b, float *c, int m, int n, int k) {
     int row = threadIdx.y + blockIdx.y * blockDim.y;
     int col = threadIdx.x + blockIdx.x * blockDim.x;
@@ -486,8 +475,6 @@ __global__ void _m3x_calc_device2(float *a, float *b, float *c, int m, int n, in
     return;
 }
 
-// m = rows_a = rows_c, n = cols_a, k = cols_b = cols_c
-// template <int BLOCK_X_SIZE, int BLOCK_Y_SIZE>
 __global__ void matMul2(float* A, float* B, float* C, int m, int n, int K) {
 	const unsigned int bx = blockDim.x, by = blockDim.y;
 	// const unsigned int bx = BLOCK_X_SIZE, by = BLOCK_Y_SIZE;
@@ -741,41 +728,7 @@ int main(int argc, char **argv) {
 		_dump_m3x(b, n, k);
 	}
 	if(_host_cpu == 1){ callHost(a,b,c,m,n,k); }
-
-
-	// callCuda1(a,b,c,m,n,k);
-	// for (int i = 1; i < 2048; /*i+=_testStep*/) {
-	// 	int sq = sqrt(i);
-	//     _thread_y = sq+1;
-	//     _thread_x = sq;
-
-	// 	callCuda1(a,b,c,m,n,k);
-	//     _thread_y = sq + 1;
-	//     _thread_x = sq + 1;
-	// 	callCuda1(a,b,c,m,n,k);
-	// 	i = _thread_y*_thread_x;
-	// }
-
-	// for (int i = 1; i < 512; /*i+=_testStep*/) {
-	// 	int sq = sqrt(i);
-	//     // _thread_y = sq+1;
-	//     // _thread_x = sq;
-
-	// 	if(_block_x != sq && _block_y != sq)
-	// 	{
-	// 	    _block_x = sq;
-	// 	    _block_y = sq;
-	// 		callCuda1(a,b,c,m,n,k);
-	// 	}
-	//     _block_y = sq+1;
-	//     _block_x = sq;
-
-	// 	callCuda1(a,b,c,m,n,k);
-	//     _block_y = sq + 1;
-	//     _block_x = sq + 1;
-	// 	callCuda1(a,b,c,m,n,k);
-	// 	i = _block_y*_block_x;
-	// }
+	
 
 	for (int i = _testStep; i < 32*32; /*i+=_testStep*/) {
 		int sq = sqrt(i);
