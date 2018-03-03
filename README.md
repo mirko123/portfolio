@@ -2,4 +2,4 @@
 Portfolio
 
 ### Optimizer
-[Описание](https://drive.goole.com/file/d/1lou-0dvo-8Ggfg_r6fUpadcBSZDawhLZ/view)
+[Описание](https://drive.google.com/file/d/1y3_FjW45GNpW5Pj-1sxMYyfOOnA69iiV/view)
