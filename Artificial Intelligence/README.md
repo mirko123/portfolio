@@ -36,7 +36,10 @@
 <br>
 <br>
 За реализацията на проекта ще използвам python и блиблиотеки като pandas, nupy, sklearn и други
-`pip install numpy scipy matplotlib ipython scikit-learn pandas pillow mglearn jupyter`
+```python
+pip install numpy scipy matplotlib ipython scikit-learn pandas pillow mglearn jupyter
+```
+дас
 
 
 ```python
