@@ -1,0 +1,22 @@
+#page {
+    text-align: center
+}
+
+#main-nav {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+.inlined{
+	display:inline;
+}
+#calendar{
+	width: 100px;
+}
+.settings{
+	margin-bottom: 10px;
+}
+.btn-remove-id{
+	position: relative;
+	top:-30px;
+}
