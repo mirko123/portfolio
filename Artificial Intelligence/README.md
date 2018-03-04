@@ -5,6 +5,7 @@
 
 
 # Реализация: 
+Изполвал съм jupyter notebook
 ### Как започна всичко
 
 ![alt text](img/best.png "Title")
@@ -86,7 +87,7 @@ data[data.left == True].time_spend_company.value_counts().plot(kind='bar');
 ```
 
 
-![png](output_10_0.png)
+![png](img/output_10_0.png)
 
 
 Вижда се, че най-често хората напускат след 3-та си година в компанията
@@ -111,7 +112,7 @@ data.salary.value_counts().plot(kind='bar');
 ```
 
 
-![png](output_13_0.png)
+![png](img/output_13_0.png)
 
 
 
@@ -120,7 +121,7 @@ data.sales.value_counts().plot(kind='bar');
 ```
 
 
-![png](output_14_0.png)
+![png](img/output_14_0.png)
 
 
 Виждаме 2 категориини колони, които биха могли да направят проблем при по-нататъчна работа с данните. Ще направим One Hot Encoding
