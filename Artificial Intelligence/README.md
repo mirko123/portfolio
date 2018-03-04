@@ -35,10 +35,11 @@
 <br>
 <br>
 <br>
-Inline `code` has `back-ticks around` it.
+
 За реализацията на проекта ще използвам python и блиблиотеки като pandas, nupy, sklearn и други
-`pip install numpy scipy matplotlib ipython scikit-learn pandas pillow mglearn jupyter`
-дас
+```console
+pip install numpy scipy matplotlib ipython scikit-learn pandas pillow mglearn jupyter
+```
 
 
 ```python
