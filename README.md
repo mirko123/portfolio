@@ -17,3 +17,10 @@ Portfolio
 [Код](https://github.com/mirko123/portfolio/tree/master/4D%20house)
 
 [Описание](https://drive.google.com/file/d/1cuz-QHl-ifYgMpsyEIDLnUjBv30esuuz/view?usp=sharing)
+
+
+
+### Student Calendar
+[Код](https://github.com/mirko123/portfolio/tree/master/Student%20Calendar)
+
+[Описание](https://docs.google.com/document/d/1qEWfkMYLEJXonlveZ-PivNhicINVC5sAjW7F0Tfsw4U/edit?usp=sharing)
