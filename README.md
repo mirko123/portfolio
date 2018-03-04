@@ -38,6 +38,7 @@ Portfolio
 [Код](https://github.com/mirko123/portfolio/tree/master/Artificial%20Intelligence)
 
 [Описание](https://drive.google.com/file/d/1IlGCaTQNzLSK819UtwwbpbvB_83MGDZX/view?usp=sharing)
+<!-- [Описание](https://drive.google.com/file/d/1rOvsag5I5BVLf3xYFhfm2VOWR3JJxm7Y/view?usp=sharing) -->
 
 
 
