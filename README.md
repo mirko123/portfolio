@@ -46,7 +46,7 @@
 
 
 ### KD-tree with Haskell
-[Код](https://github.com/mirko123/portfolio/tree/master/Robots)
+[Код](https://github.com/mirko123/portfolio/tree/master/KD-tree%20with%20Haskell)
 
 
 
