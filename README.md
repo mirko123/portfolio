@@ -30,3 +30,20 @@ Portfolio
 [Код](https://github.com/mirko123/portfolio/tree/master/Beekeeper)
 
 [Описание](https://docs.google.com/document/d/1x8ef-LOW6tHMQOS09OeYRwibNEoxz32qwj-89Hfa5kA/edit?usp=sharing)
+
+
+
+
+### Artificial Intelligence - analyzing data 
+[Код](https://github.com/mirko123/portfolio/tree/master/Artificial%20Intelligence)
+
+[Описание](https://drive.google.com/file/d/1IlGCaTQNzLSK819UtwwbpbvB_83MGDZX/view?usp=sharing)
+
+
+
+
+
+
+
+
+
