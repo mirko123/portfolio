@@ -1,0 +1,94 @@
+#page {
+    text-align: center
+}
+
+#main-nav {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#page .hidden-when-not-logged-in {
+    display: none;
+}
+
+#page.logged-in .hidden-when-not-logged-in {
+    display: initial;
+}
+
+#page.logged-in .visible-when-not-logged-in {
+    display: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.visualisation {
+    width: 800px;
+    height: 300px;
+    padding: 0 0 0 0;
+}
+// svg {
+//     margin: 0 0 0 0;
+//     padding: 0 0 0 0;
+// }
+
+img.media-object {
+    height:120px;
+}
+
+.esp_control{
+    float: right;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.area {
+  fill: steelblue;
+}
+
+
+// .comp_temp_graphic .axis path,
+// .comp_temp_graphic .axis line {
+//   fill: none;
+//   stroke: #000;
+//   shape-rendering: crispEdges;
+// }
+
+// .comp_temp_graphic .x.axis path {
+//   display: none;
+// }
+
+// .comp_temp_graphic .area.above {
+//   fill: rgb(252,141,89);
+// }
+
+// .comp_temp_graphic .area.below {
+//   fill: rgb(145,207,96);
+// }
+
+// .comp_temp_graphic .line {
+//   fill: none;
+//   stroke: #000;
+//   stroke-width: 1.5px;
+// }
+
+.comp_humidity_graphic .line, .comp_temp_graphic .line{
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.comp_humidity_graphic .axisSteelBlue text,.comp_temp_graphic .axisSteelBlue text {
+    fill: steelblue;
+}
+
+.comp_humidity_graphic .axisRed text, .comp_temp_graphic .axisRed text{
+    fill: red;
+}
