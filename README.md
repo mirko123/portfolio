@@ -1,5 +1,4 @@
-# portfolio
-Portfolio
+# Portfolio
 
 ### Optimizer
 [Код](https://github.com/mirko123/portfolio/tree/master/Optimizer)
