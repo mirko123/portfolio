@@ -49,6 +49,12 @@
 [Код](https://github.com/mirko123/portfolio/tree/master/KD-tree%20with%20Haskell)
 
 
+### Game of Life (JS version)
+[Код](https://github.com/mirko123/game2)
+
+
+
+
 
 
 
