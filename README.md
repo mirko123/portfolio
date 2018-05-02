@@ -57,6 +57,11 @@
 
 [Описание](https://drive.google.com/file/d/1fM_IOswXugdm3cG5DtMAV4nqyoSQPBNd/view?usp=sharing)
 
+### 3D Visualisation
+[Код](https://github.com/mirko123/portfolio/tree/master/3D%20visualisation)
+
+[Демо](https://www.youtube.com/watch?v=Fm8WmvoI6Yc&feature=youtu.be)
+
 
 
 
