@@ -62,6 +62,14 @@
 
 [Демо](https://www.youtube.com/watch?v=Fm8WmvoI6Yc&feature=youtu.be)
 
+### Garbage collection robot
+[Код и описание](https://github.com/melaniab/fmi-wall-e)
+
+### Garbage sorting machine
+[Код и описание](https://github.com/IvanFilipov/FMI-Codes-Hack-for-the-planet)
+
+### Public transport app 
+[Код и описание](https://github.com/mirko123/7_Wall-e_InnoAir)
 
 
 
